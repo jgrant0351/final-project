@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="theme3.css">
+    <script src="./caleandar.js"></script>
    
 </head>
 <body id="body">
@@ -16,7 +18,7 @@
        <div> <input type="text" placeholder="Search.." name="search" id="search"></div>
        
        
-      <div id="button"><button onclick="myfunction()" id="chat">chat</button><button id="gi">GI bill</button><button id="Opportunites">Opportunites</button></div>
+      <div id="button"><button onclick="myfunction()" id="chat">chat</button><button id="gi">GI bill</button><button id="Opportunites" onclick="window.location.href='./oportunities.html'">Opportunites</button></div>
        
 
         
@@ -24,18 +26,24 @@
     </div>
     <div id="link"> <a href="https://inquiry.vba.va.gov/weamspub/buildSearchInstitutionCriteria.do"><img src="./college.jpg" alt="link"></a></div>
     <div id="app-calendar">
-    <div id="caleandar">
+    <div id="caleandar"></div>
         
         </div>
     <script src="./caleandar.js">
-    var element = document.getElementById('caleandar');
-caleandar(element, events, settings);
+  
 
     </script>
      </div>
     
     <div id="footer">
-        <h1>About</h1>
+        <h1 id= h1>About</h1>
+        <p id=p1>A place Where like minded veterans can leverage their unique mindset to:</p>
+        <ul id="ul"> 
+        <li>Study Together</li>
+        <li>Share Resources</li>
+        <li>Network</li>
+        <li>Connect</li>
+    </ul>
         
     </div>
 

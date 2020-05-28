@@ -1,0 +1,148 @@
+#header {
+    background-color: grey;
+    border-style: solid;  
+    border-width: thin;
+    margin: auto;
+    height: 200px;
+    color:black
+    font-family: fantasy;
+    }
+    
+    #app-calendar {
+    border-style: solid;
+    border-width: thin;
+    height: 500px;
+    width: 50%;
+    display: flex;
+    background-color: grey
+    }
+    #footer {
+      background-color: black
+      height: 250px;
+      width: 100%;
+    }
+    .name {
+    text-align: center;
+    text-size-adjust: ;
+    margin-top: 80px;
+    font-size: 40px;
+    font-style: oblique;
+    background-attachment: fixed;
+    
+    }
+    #search {
+     position: relative;
+     margin-right: 2%;
+    margin-top: -100px;
+    float: right;
+    
+    }
+    
+    #caleandar {
+      display: flex;
+    
+    height: 10%;
+    width: 10%;
+    
+    color: rgb(30, 28, 39);
+    
+    }
+    
+      
+      #chat, #gi, #Opportunites{
+    
+        background-color:rgb(30, 28, 39);
+        height: 840%;
+        width: 22%;
+        color: rgb(248,10,28);
+        font-style: bold;
+        font-size: 14px;
+        }
+      #search{
+        height: 35px;
+        margin-top: 5px;
+    
+      }
+      #button {
+    position: relative;
+    top: 26%;
+    background-color: black
+    
+      }
+      #link {
+       float: right;
+        top: 2%;
+        left: 40%;
+        width:750px;
+        height: 20px;
+      }
+      
+     #body{
+     background-color:black;
+    
+     } 
+     #h1{
+    color: rgb(241, 239, 239) ;
+    margin-left: 160%;
+    
+     }
+    
+     #p1 {
+    color:rgb(248, 245, 245) ;
+    margin-top: 10%;
+    margin-left: 90%;
+    width: 50%;
+     }
+    
+     #ul {
+      color:rgb(248,10,28) ; 
+     }
+     #header2{
+    
+      border-style: solid;  
+      border-width: thin;
+      margin: auto;
+      height: 200px;
+      color: white;
+      background-color:black
+      height: 200px;
+      
+       }
+       #Vetsintech {
+        background-image: url(images.jpg);
+        background-repeat: no-repeat;
+        -webkit-background-size: 100% 500px ;
+        
+       }
+
+     #vets {
+        text-align: center;
+        margin-left: 30%;
+       }
+       #paragraph{
+         margin-top: 10%;
+          margin-left: -40%;
+       }
+       #img{
+      height: 200px;
+      margin: 20%;
+      margin-bottom: -20%;
+
+       }
+      #picture{
+          margin: 9%;
+      }
+
+      #picture2{
+         float: right;
+          
+          margin: 90%;
+          margin-left: 650%;
+          margin-top: 120%;
+              }
+    #img2{
+
+        
+    }
+      
+    
