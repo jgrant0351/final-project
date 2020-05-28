@@ -3,7 +3,6 @@
   Version: 0.1.0;
   (◠‿◠✿)
 */
-var element = document.getElementById('caleandar');
 
 
 var Calendar = function(model, options, date){
@@ -300,5 +299,25 @@ function caleandar(el, data, settings){
   var obj = new Calendar(data, settings);
   createCalendar(obj, el);
 }
+var events = [
+  {'Date': new Date(2016, 6, 7), 'Title': 'Doctor appointment at 3:25pm.'},
+  {'Date': new Date(2016, 6, 18), 'Title': 'New Garfield movie comes out!', 'Link': 'https://garfield.com'},
+  {'Date': new Date(2016, 6, 27), 'Title': '25 year anniversary', 'Link': 'https://www.google.com.au/#q=anniversary+gifts'},
+];
+
+var settings = {
+  Color: '',
+  LinkColor: '',
+  NavShow: true,
+  NavVertical: false,
+  NavLocation: '',
+  DateTimeShow: true,
+  DateTimeFormat: 'mmm, yyyy',
+  DatetimeLocation: '',
+  EventClick: '',
+  EventTargetWholeDay: false,
+  DisabledDays: [],
  
- document.getElementById("caleandar").innerHTML;
+};
+var element = document.getElementById('app-calendar');
+caleandar(element, events, settings);
