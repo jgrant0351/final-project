@@ -29,7 +29,7 @@
     cursor: pointer;
   }
   .cld-nav:hover svg{
-      fill: #666;
+      fill: ghostwhite;
   }
   .cld-rwd{
     float: left;
@@ -63,7 +63,7 @@
     cursor: pointer;
   }
   .cld-day.today{
-    border: 1px solid #7B00FF;
+    border: 1px solid rgb(245, 245, 246);
   }
   .cld-day.disableDay{
     opacity: 0.5;
